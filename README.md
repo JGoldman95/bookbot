@@ -29,6 +29,91 @@ bookbot/
 - [ ] Add type hints for better code documentation
 - [ ] Create configuration file for program settings
 
+
+#### Main Program Files
+main.py
+- [ ] Program entry point
+- [ ] CLI menu system implementation
+- [ ] High-level workflow control
+- [ ] Command routing
+- [ ] User interaction handling
+
+config.py
+- [ ] Configuration settings
+- [ ] File paths and constants
+- [ ] Default values
+- [ ] Environment variables
+- [ ] Program settings
+
+#### Utils Package
+utils/__init__.py
+- [ ] Package initialization
+- [ ] Common imports and shared constants
+- [ ] Version information
+- [ ] Public API definitions
+
+utils/file_handler.py
+- [ ] File reading/writing operations
+- [ ] Path validation and error handling
+- [ ] File type detection
+- [ ] Web content fetching
+- [ ] Directory scanning functions
+- [ ] File format conversions
+
+utils/text_processor.py
+- [ ] Text cleaning and normalization
+- [ ] String manipulation utilities
+- [ ] Text splitting and tokenization
+- [ ] Whitespace handling
+- [ ] Character encoding management
+- [ ] Input validation and sanitization
+
+utils/word_analytics.py
+- [ ] Word counting functions
+- [ ] Word frequency analysis
+- [ ] Word length calculations
+- [ ] Word pattern detection
+- [ ] Dictionary/vocabulary operations
+- [ ] Word categorization
+
+utils/char_analytics.py
+- [ ] Character counting
+- [ ] Character frequency analysis
+- [ ] Letter case analysis
+- [ ] Special
+
+#### Reports Package
+reports/__init__.py
+- [ ] Reports package initialization
+- [ ] Common reporting interfaces
+- [ ] Output format definitions
+- [ ] Shared reporting utilities
+- [ ] Report type registrations
+
+reports/report_formatter.py
+- [ ] Data structuring for output
+- [ ] Report template management
+- [ ] Format conversion utilities
+- [ ] Layout definitions
+- [ ] Section organization
+- [ ] Data presentation rules
+
+reports/console_output.py
+- [ ] Terminal display formatting
+- [ ] Progress indicators
+- [ ] Interactive console elements
+- [ ] Color and styling
+- [ ] Console-specific layouts
+- [ ] Real-time updates
+
+reports/file_output.py
+- [ ] File export functionality
+- [ ] Multiple format support (txt, csv, json)
+- [ ] Report file naming conventions
+- [ ] File output error handling
+- [ ] Export path management
+- [ ] Format-specific formatting
+
 ### Interactive CLI Menu System
 - [ ] Add interactive menu interface
 - [ ] Command-driven operation selection
@@ -62,3 +147,4 @@ bookbot/
 - [ ] Export reports to different file formats
 - [ ] Comparative report generation
 - [ ] Visual data representations
+
